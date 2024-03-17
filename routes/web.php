@@ -16,9 +16,18 @@ use App\Http\Controllers\GameController;
 |
 */
 
-// https://m.pg-nmga.com
-// /126/
-// index.html?btt=1&ot=AFECCA87-73E4-45B9-9C79-E64413F96211&ops=donaldbet_G6aAtn0q7iU35lrT%21%21b1&l=pt&f=https%3A%2F%2Fdonald.bet%2Fcasino%2Flive&__refer=m.pgr-nmga.com&or=static.pg-nmga.com&__hv=1fb275f1
+//https://m.pg-nmga.com
+// /126
+// /index.html
+// ?language=br&bet_type=1
+// &operator_token=3D03A316-85C9-08ED-5C09-8B3EA7FC0F00
+// &operator_player_session=5e0e143e-9f01-454e-9d01-e0e3ba369680
+// &pn=1094
+// &pn=1094
+// &__refer=m.pgr-nmga.com
+// &or=static.pg-nmga.com
+// &__hv=1f819bc7
+
 
 Route::get('/{path}', [CopyController::class, 'copy'])
     ->where('path', '.*');
