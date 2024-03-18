@@ -30,7 +30,7 @@ class CopyController extends Controller
 
         } else {
             // Corrigido para aspas duplas e interpolação correta da variável $path
-            $response = Http::get("https://static.pg-nmga.com/{$path}");
+            $response = Http::get("https://m.pg-nmga.com/{$path}");
 
             if ($response->successful()) {
                 $directoryPath = dirname($localPath);
